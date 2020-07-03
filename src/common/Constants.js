@@ -1,0 +1,9 @@
+export const FIRST_NAME = "ARJUN";
+export const LAST_NAME = "GURURAJAN";
+export const DESIGNATION = "Senior Software Engineer (5.6 yrs)";
+export const OBJECTIVE = "A fast learner with an ability to turnaround things quickly and effectively. I am a problem solver. I want to work in an environment where my skills can be utilized to the maximum as it will be beneficial to the organization and also will help me to grow."
+export const ADDRESS = "Pearlite Lakeside Apartments, Parappana Agrahara, Bangalore - 560100";
+export const PHONE = "+91 7411731914";
+export const EMAIL = "nag9209@gmail.com";
+export const FACEBOOK = "https://www.facebook.com/arjun.gcj";
+export const GITHUB = "https://github.com/arjun9218";
