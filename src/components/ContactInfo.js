@@ -68,7 +68,7 @@ const ContactInfo = () => {
         <Typography component="div" className={classes.root}>
             <Typography component="div" className={classes.heading}>CONTACT INFO</Typography>
             <Typography component="div" className={classes.skillHeaderDiv}>
-                <Typography component="span" className={classes.skillHeader}>Residential Address</Typography>
+                <Typography component="span" className={classes.skillHeader}>Residence</Typography>
             </Typography>
             <Typography component="div" >
                 <Typography component="span">{Constants.ADDRESS}</Typography>

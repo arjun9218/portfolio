@@ -28,6 +28,9 @@ import Skills from '../components/Skills';
 import ContactInfo from '../components/ContactInfo';
 import Education from '../components/Education';
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
+import Experience from '../components/Experience';
+import Interests from '../components/Interests';
+import Achievements from '../components/Achievements';
 
 const drawerWidth = 281;
 
@@ -106,7 +109,7 @@ const useStyles = makeStyles((theme) => ({
     transitionEnterActive: {
         opacity: 1,
         transform: "translateX(0%)",
-        transition: "opacity 500ms, transform 500ms"
+        transition: "opacity 400ms, transform 400ms"
     },
     transitionExit: {
         opacity: 1,
@@ -115,7 +118,7 @@ const useStyles = makeStyles((theme) => ({
     transitionExitActive: {
         opacity: 0,
         transform: "translateX(-100%)",
-        transition: "opacity 500ms, transform 500ms"
+        transition: "opacity 400ms, transform 400ms"
     }
 }));
 
@@ -282,19 +285,10 @@ const Layout = (props) => {
                             : selectedItem === "skills" ? <Skills />
                                 : selectedItem === "contact" ? <ContactInfo />
                                     : selectedItem === "education" ? <Education />
-                                        :
-                                        <Typography paragraph>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                            ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum
-                                            facilisis leo vel. Risus at ultrices mi tempus imperdiet. Semper risus in hendrerit
-                                            gravida rutrum quisque non tellus. Convallis convallis tellus id interdum velit laoreet id
-                                            donec ultrices. Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl suscipit
-                                            adipiscing bibendum est ultricies integer quis. Cursus euismod quis viverra nibh cras.
-                                            Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Mauris commodo quis
-                                            imperdiet massa tincidunt. Cras tincidunt lobortis feugiat vivamus at augue. At augue eget
-                                            arcu dictum varius duis at consectetur lorem. Velit sed ullamcorper morbi tincidunt. Lorem
-                                            donec massa sapien faucibus et molestie ac.
-                                        </Typography>
+                                        : selectedItem === "experience" ? <Experience />
+                                            : selectedItem === "hobby" ? <Interests setSelectedItem={setSelectedItem} />
+                                                : selectedItem === "achievements" ? <Achievements />
+                                                    : null
                         }
                     </CSSTransition>
                 </SwitchTransition>
