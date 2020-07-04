@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "906b006a3c61eeae2d3f27e231f8ba24",
+    "revision": "55920008ab7cff967e84fc6c79fb8064",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "93118c07bd8a5f3d88be",
+    "revision": "b0fbd084be06fa9ad16f",
     "url": "/portfolio/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "1299d13c58fcbd964436",
-    "url": "/portfolio/static/js/2.f4d65aba.chunk.js"
+    "revision": "f9f5b01935eea8c36487",
+    "url": "/portfolio/static/js/2.3409abe2.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/portfolio/static/js/2.f4d65aba.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.3409abe2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "93118c07bd8a5f3d88be",
-    "url": "/portfolio/static/js/main.c8f9afeb.chunk.js"
+    "revision": "b0fbd084be06fa9ad16f",
+    "url": "/portfolio/static/js/main.22ab9483.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
-    "revision": "a9015d9f6703b4e25add7dafeefc0aa6",
-    "url": "/portfolio/static/media/Resume.a9015d9f.pdf"
+    "revision": "de7ab14a6037c03470bb0f9a0e9601ab",
+    "url": "/portfolio/static/media/Resume.de7ab14a.pdf"
   },
   {
     "revision": "3632911d00e157c9e283cb34904c52af",
     "url": "/portfolio/static/media/School-management1.3632911d.PNG"
+  },
+  {
+    "revision": "58a01c03da8d6f53cbf6702cad787b3d",
+    "url": "/portfolio/static/media/School-management2.58a01c03.PNG"
   },
   {
     "revision": "439cbf1e146493d32f7ad3cc98758d55",
